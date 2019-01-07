@@ -76,5 +76,7 @@
     }
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "immer": "^1.10.0"
+  }
 }
