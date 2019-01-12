@@ -1,9 +1,3 @@
-function Year(year) {
-  this.year = year
+export function isLeap(year) {
+  return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
 }
-
-Year.prototype.isLeap = function () {
-  return this.year % 4 === 0 && this.year % 100 !== 0 || this.year % 400 === 0
-}
-
-export default Year
